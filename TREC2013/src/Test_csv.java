@@ -43,7 +43,7 @@ public class Test_csv {
 			//	String [] values = data.split(",");
 			//	System.out.println(values[0]);
 				
-				if(data.contains(city_name) && data.contains("NC")){
+				if(data.contains(city_name) && data.contains("IL")){
 			//	System.out.println(data);
 			
 				String [] values = data.split(",");
