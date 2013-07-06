@@ -20,6 +20,6 @@
 	<classpathentry kind="lib" path="/Users/JoconnorV/GitHub/TREC2013/TREC2013/libraries/junit.jar"/>
 	<classpathentry kind="lib" path="/Users/JoconnorV/GitHub/TREC2013/TREC2013/libraries/sax2.jar"/>
 	<classpathentry kind="lib" path="/Users/JoconnorV/GitHub/TREC2013/TREC2013/libraries/thumbelina.jar"/>
-	<classpathentry kind="lib" path="/Users/JoconnorV/GitHub/TREC2013/TREC2013/libraries/scribe-1.0.6.jar"/>
+	<classpathentry kind="lib" path="/Users/JoconnorV/GitHub/TREC2013/TREC2013/libraries/scribe-1.2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
