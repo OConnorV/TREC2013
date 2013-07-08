@@ -18,7 +18,7 @@ public class Venues_Per_City {
 		
 		System.out.println("Hello World !");
 		
-		String city_name = "Orlando";
+		String city_name = "Crestview";
 		
 		Test_csv venue_latlong = new Test_csv();
 		
@@ -90,7 +90,7 @@ public class Venues_Per_City {
     
     try{
 	
-    FileWriter file = new FileWriter("Orlando.json");
+    FileWriter file = new FileWriter("Crestview.json");
     file.write(obj23.toJSONString());
     System.out.println("I hope this works !");
     
