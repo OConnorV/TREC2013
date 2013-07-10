@@ -18,7 +18,7 @@ public class Urls_to_JSON {
 		
 		JSONParser parser = new JSONParser();
 		
-		Object obj_parser2 = parser.parse(new FileReader("Chapel_Hill_new_test.json"));
+		Object obj_parser2 = parser.parse(new FileReader("corpusData/Lewiston.json"));
 		
 		JSONObject ob_location = (JSONObject)obj_parser2;
 		JSONArray av_location = (JSONArray) ob_location.get("Venues");
@@ -198,7 +198,7 @@ public class Urls_to_JSON {
 					
 				}
 				
-				FileWriter file = new FileWriter("Chapel_Hill_wordf.json");
+				FileWriter file = new FileWriter("corpusTF/Lewiston_wordf.json");
 				
 				file.write(main_obj.toJSONString());
 				
