@@ -91,7 +91,7 @@ public class Fetch_Bizurl {
 			
 			System.out.println("Ok, this didn't work !");
 			e.printStackTrace();
-			System.exit(0);
+			//System.exit(0);
 		}
 		return final_url;	
 		
