@@ -15,7 +15,7 @@ public class Test_csv {
 
 //		System.out.println("Hello World !");
 		
-		String fileName = "csv1.txt";
+		String fileName = "crestview.txt";
 		
 		File file = new File(fileName);
 		ArrayList<Csv_Values> a1 = new ArrayList<Csv_Values>();
@@ -43,7 +43,7 @@ public class Test_csv {
 			//	String [] values = data.split(",");
 			//	System.out.println(values[0]);
 				
-				if(data.contains(city_name) && data.contains("DC")){
+				if(data.contains(city_name) && data.contains("FL")){
 			//	System.out.println(data);
 			
 				String [] values = data.split(",");
